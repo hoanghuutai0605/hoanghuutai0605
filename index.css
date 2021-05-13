@@ -1,0 +1,33 @@
+body {
+  height: 70vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  height: 300px;
+  width: 400px;
+}
+
+input {
+  float: right;
+  width: 200px;
+  height: 20px;
+}
+
+.right {
+  width: 20px;
+  float: right;
+  padding-left: 10px;
+}
+
+button {
+  height: 40px;
+  width: 197px;
+  position: absolute;
+  right: 43%;
+}
+
+/*# sourceMappingURL=index.css.map */
