@@ -21,18 +21,17 @@ thoiGianVayInput.addEventListener('change',(e)=>{
 
 laiSuatInput.addEventListener('change',(e)=>{
     laiSuat = e.target.value;
+    laiSuat= laiSuat/100;
     console.log(laiSuat)
 })
 
 calButton.addEventListener('click',(e) =>{
 var gocHangThang = soTienVay/thoiGianVay;
-for(let i = 0 ; i < thoiGianVay ; i++) {
+for(let i = 0 ; i <=  thoiGianVay ; i++) {
   var  laiPhaiTra = soTienVay * laiSuat/12;
-    var tienPhaiTraHangThang = laiPhaiTra +  gocHangThang;
-    var gocConLai = soTienVay - gocHangThang;
-
+    let gocConLai = soTienVay - gocHangThang;
+    let tienPhaiTraHangThang = laiPhaiTra +  gocHangThang;
     console.log('Tien goc:' + gocConLai + ' Goc:' + gocHangThang + 'Lai:' + laiPhaiTra + ' Goc + Lai: ' + tienPhaiTraHangThang);
-
   }
 } )
 
