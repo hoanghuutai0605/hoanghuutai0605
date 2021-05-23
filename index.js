@@ -32,6 +32,7 @@ for(let i = 0 ; i <=  thoiGianVay ; i++) {
     let gocConLai = soTienVay - gocHangThang;
     let tienPhaiTraHangThang = laiPhaiTra +  gocHangThang;
     console.log('Tien goc:' + gocConLai + ' Goc:' + gocHangThang + 'Lai:' + laiPhaiTra + ' Goc + Lai: ' + tienPhaiTraHangThang);
+    // gán lại giá trị ở chỗ này đúng k?
   }
 } )
 
