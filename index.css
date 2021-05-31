@@ -28,6 +28,11 @@ button {
   width: 197px;
   position: absolute;
   right: 43%;
+  bottom: 24rem;
+}
+#date {
+  padding-left: 34px;
+  height: 26px;
 }
 
 /*# sourceMappingURL=index.css.map */
